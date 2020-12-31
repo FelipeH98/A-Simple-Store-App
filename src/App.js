@@ -81,7 +81,7 @@ function App(){
     const renderProducts = () =>(
         <>
             <h2>Productos</h2>
-            <Toast style={{margin:'10px auto 10px auto'}} onClose={() => setShow(false)} show={show} delay={3000} autohide>
+            <Toast style={{margin:'10px auto 10px auto',position:'fixed',right:'15px'}} onClose={() => setShow(false)} show={show} delay={3000} autohide>
                 <Toast.Header>
                     <img
                     src="https://www.freeiconspng.com/thumbs/success-icon/success-icon-10.png"
