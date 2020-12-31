@@ -1,0 +1,27 @@
+.bar-fix{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+.nav-limit{
+    width: 900px;
+    display: inline-block;
+    margin: 0 auto 0 auto;
+    padding: 0 40px 0 30px;
+    color: white;
+}
+
+.cont-btns{
+    width: 90%;
+    text-align: right;
+    float: right;
+}
+
+@media screen and (max-width:525px){
+    .cont-btns{
+        width: 70%;
+        float: right;
+        text-align: right;
+    }
+}
